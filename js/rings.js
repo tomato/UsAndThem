@@ -11,7 +11,7 @@
     "cause":{"Slack":3, "Collaborating":3}},
   { "nv":"Concelement", "pv":"Openness","val":0,
     "cause":{"Trust":3, "No Blame":3, "Equality":3, "Empathy":3, "Collaborating":3, "Appreciating":2}},
-  { "nv":"Stasis", "pv":"Learning","val":0, "purpose":true}];
+  { "nv":"Us and Them", "pv":"How can we help?","val":0, "purpose":true}];
 
   var cause = [
   { "nv":"Busy", "pv":"Slack", "val":-30},
