@@ -3,25 +3,22 @@
   //behaviours values effect rate of change of feelings
   //does learning = effectiveness? remove effectiveness? yes, because effectiveness is not only based on learning? some bhaviours learning directly effect learning but not necessarily feelings
   var effect = [ 
-  { "nv":"Fear", "pv":"Courage","val":0, 
-    "cause":{"Trust":1, "Collaborating":3, "No Blame":3, "Empathy":3, "Appreciating":2}},
-  { "nv":"Apathy", "pv":"Enquiry","val":0,
-    "cause":{"Slack":3, "Listening":3, "Collaborating":2, "Equality":2}},
-  { "nv":"Frustration", "pv":"Flow","val":0,
-    "cause":{"Slack":3, "Collaborating":3}},
-  { "nv":"Concelement", "pv":"Openness","val":0,
-    "cause":{"Trust":3, "No Blame":3, "Equality":3, "Empathy":3, "Collaborating":3, "Appreciating":2}},
+  { "nv":"Suspicion", "pv":"Trust","val":0, 
+    "cause":{"Closeness":3, "Openness":3, "Listening":3 }},
+  { "nv":"Fear", "pv":"Courage","val":0,
+    "cause":{"Group Reflection":3, "Success stories":3}},
+  { "nv":"Frustration", "pv":"Fellowship","val":0,
+    "cause":{"Appreciation":3, "Vulnerability":3}},
   { "nv":"Us and Them", "pv":"How can we help?","val":0, "purpose":true}];
 
   var cause = [
-  { "nv":"Busy", "pv":"Slack", "val":-30},
-  { "nv":"Mistrust", "pv":"Trust", "val":-30},
-  { "nv":"Blame", "pv":"No Blame", "val":-30},
-  { "nv":"Interrupting", "pv":"Listening","val":-30},
-  { "nv":"Hierarchy", "pv":"Equality", "val":-30},
-  { "nv":"Punishment", "pv":"Empathy", "val":-30},
-  { "nv":"Work Alone", "pv":"Collaborating", "val":-30},
-  { "nv":"Dissing", "pv":"Appreciating", "val":-30}];
+  { "nv":"Separation", "pv":"Closeness", "val":-30},
+  { "nv":"Concealment", "pv":"Openness", "val":-30},
+  { "nv":"Ignoring", "pv":"Listening", "val":-30},
+  { "nv":"Blame", "pv":"Group Reflection","val":-30},
+  { "nv":"Scare stories", "pv":"Success stories", "val":-30},
+  { "nv":"Punishment", "pv":"Appreciation", "val":-30},
+  { "nv":"Defensiveness", "pv":"Vulnerability", "val":-30}]
 
   var fps = 20;
   var clickInterval;
