@@ -1,7 +1,7 @@
 Us and them is a mindset
 [Start with no slides, sat on a table, people around in a circle]
 
-My Assumption is that: At some point all attempts to become Agile will fail because of an inability to collaborate with the right people. We are going to explore how we can overcome this hurdle
+My Assumption is that: Agile is thwarted by inability to cross functional collaboration. 
 
 Tell me about your x-functional teams? 
 
